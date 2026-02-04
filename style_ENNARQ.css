@@ -1,0 +1,112 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CORES */
+:root {
+  --preto: #0f0f0f;
+  --cinza: #f4f4f4;
+  --dourado: #c9a44c;
+  --texto: #2b2b2b;
+}
+
+body {
+  color: var(--texto);
+  line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+  background: var(--preto);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  margin: 20px 0;
+}
+
+/* BOTÃO */
+.btn {
+  background: var(--dourado);
+  color: black;
+  padding: 12px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* SEÇÕES */
+.section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.bg {
+  background: var(--cinza);
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* PORTFÓLIO */
+.photo {
+  background: #ddd;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+/* FORM */
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* RODAPÉ */
+footer {
+  background: var(--preto);
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
